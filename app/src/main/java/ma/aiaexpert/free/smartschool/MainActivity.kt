@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -58,17 +59,17 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
-                // Handle the camera action
+            R.id.nav_news -> {
+                Toast.makeText(this, "News Page.", Toast.LENGTH_SHORT).show()
             }
-            R.id.nav_gallery -> {
-
+            R.id.nav_children -> {
+                Toast.makeText(this, "Children Page.", Toast.LENGTH_SHORT).show()
             }
-            R.id.nav_slideshow -> {
-
+            R.id.nav_school -> {
+                Toast.makeText(this, "School Page.", Toast.LENGTH_SHORT).show()
             }
-            R.id.nav_manage -> {
-
+            R.id.nav_account -> {
+                Toast.makeText(this, "My Account Page.", Toast.LENGTH_SHORT).show()
             }
             R.id.nav_share -> {
 

@@ -3,8 +3,15 @@
     <string name="title_activity_main">Actualités</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Smart School</string>
-    <string name="nav_header_subtitle">mhamidi@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <!--  Left menu items  -->
+    <string name="nav_header_title">Smart School</string>
+    <string name="nav_header_subtitle">mohamed.hamidi@android.com</string>
+    <string name="nav_header_news">Actualités</string>
+    <string name="nav_header_children">Mes Enfants</string>
+    <string name="nav_header_school">L\' école</string>
+    <string name="nav_header_account">Mon compte</string>
+
 </resources>
